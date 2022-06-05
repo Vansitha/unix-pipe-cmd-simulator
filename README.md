@@ -1,4 +1,4 @@
-# Pipe Simulator v1.0
+# Unix Pipe Simulator v1.0
 
 ## Program overview
 
