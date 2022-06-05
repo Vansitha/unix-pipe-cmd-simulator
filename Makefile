@@ -26,7 +26,7 @@ bin/process.o: src/process.c src/process.h src/linkedList.h src/fileIO.h src/uti
 	@mkdir -p bin
 	$(CC) $(CFLGAS) -c $< -o $@
 
-# rule to clean all binaries, executable and output files
+# rule to clean all object, executable and output files
 clean:
 	rm -rf bin pipesim output*.txt
 
