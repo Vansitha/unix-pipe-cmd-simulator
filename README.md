@@ -14,7 +14,7 @@ replication of the the UNIX pipe's functionality
 Step 1: `cd pipe_simulator`
 
 Step 2: run `make`
-Creates a 'bin' directory containing the compiled binaries
+Creates a 'bin' directory containing the compiled object files
 Creates an executable in the current working directory called "pipesim"
 
 Step 3: run `./pipesim <input-file-name.txt>`
