@@ -8,6 +8,7 @@
 - Each command is executed and the output is sent into the following command's input.
 - This is accomplished through the use of output files, which help achieve the 
 replication of the the UNIX pipe's functionality
+- Finally prints out the output
 
 ## Running the program
 
