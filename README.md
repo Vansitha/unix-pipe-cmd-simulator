@@ -13,18 +13,19 @@ replication of the the UNIX pipe's functionality
 
 Step 1: `cd pipe_simulator`
 
-Step 2: run `make` \n
-Creates a 'bin' directory containing the compiled object files
-Creates an executable in the current working directory called "pipesim"
+Step 2: run `make`
+
+ - Creates a 'bin' directory containing the compiled object files
+- Creates an executable in the current working directory called "pipesim"
 
 Step 3: run `./pipesim <input-file-name.txt>`
 
 Step 4 (Before running the program again): run `make rmout`
-This will remove all output files created by the program during runtime. 
-This step is a required since the program does not replace any output files generated when executed again.
+- This will remove all output files created by the program during runtime. 
+- This step is a required since the program does not replace any output files generated when executed again.
 
 Step 5 (Optional): run `make clean`
-Removes executable, bin directories and any file named as "output<num>.txt"
+- Removes executable, bin directories and any file named as "output<num>.txt"
 
 ## Assumptions
 
