@@ -53,12 +53,6 @@ void extractCommands(char *fileName, LinkedList *ll)
         buffer[bytesRead + 2] = '\0';
     }
 
-    /* 
-    Unfortunately could not implement my own version of strtok therefore used 
-    built in library function.
-    Tokenize the data read from the file and insert each tokenized command as
-    an individual node into the linked list
-    */
     char *token = strtok(buffer, "\n");
     while (token != NULL)
     {
