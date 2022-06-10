@@ -22,7 +22,7 @@ Step 2: run `make`
 Step 3: run `./pipesim <input-file-name.txt>`
 
 Step 4 (Before running the program again): run `make rmout`
-- This will remove all output files created by the program during runtime. 
+- This will remove all output files created by the program previously.  
 - This step is a required since the program does not replace any output files generated when executed again.
 
 Step 5 (Optional): run `make clean`
