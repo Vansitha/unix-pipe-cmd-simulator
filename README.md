@@ -26,7 +26,7 @@ Step 4 (Before running the program again): run `make rmout`
 - This step is a required since the program does not replace any output files generated when executed again.
 
 Step 5 (Optional): run `make clean`
-- Removes executable, bin directories and any file named as "output<num>.txt"
+- Removes executable, bin directory and any file named as "output<num>.txt"
 
 ## Assumptions
 
