@@ -30,4 +30,4 @@ Step 5 (Optional): run `make clean`
 
 ## Assumptions
 
-- Assumed that the correct commands are provided in the inital input file
+- Assumed that the correct commands are provided in the initial input file
