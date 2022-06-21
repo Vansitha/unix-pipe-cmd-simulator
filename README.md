@@ -2,7 +2,7 @@
 
 ## Program overview
 
-- Demonstrates the functionality of the unix pipe command. 
+- Program demonstrates the functionality of the unix pipe command. 
 - It reads an input file containing the commands to be executed.
 - Then generates a linked list and assigns each list node to one command.
 - Each command is executed and the output is sent into the following command's input.
