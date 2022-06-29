@@ -13,7 +13,8 @@
  *            Liang, Antoni. 2021. "Practical 06-Structs Unix and C Programming".
  *            https://echo360.net.au/section/a5467870-5383-4267-bb2f-13c2cd3a1e6c/home
  *            (converted pseudocode from practical supplementary video)
- * COMMENTS: removed insertFirst() function and added an insertlast() function
+ * COMMENTS: removed insertFirst() function and added an insertlast() function.
+ *           Uses system calls to allocate memory for each node.
  * LAST MOD: 29/05/2022
  */
 
