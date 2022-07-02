@@ -30,3 +30,5 @@ Step 5 (Optional): run `make clean`
 ## Assumptions
 
 - Assumed that the commands provided in the initial input file are valid.
+
+v1.0
